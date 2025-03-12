@@ -1,5 +1,5 @@
 resource "aws_iam_policy" "s3_resource_creation_and_artifact_access_policy" {
-  name        = "S3ResourceCreationAndArtifactAccessPolicy2"
+  name        = "S3ResourceCreationAndArtifactAccessPolicyfinal"
   description = "Policy to allow access to create and manage S3 buckets and artifacts"
 
   policy = jsonencode({
