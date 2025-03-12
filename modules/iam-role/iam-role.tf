@@ -1,5 +1,5 @@
 resource "aws_iam_role" "service_catalog_role" {
-  name               = "service-catalog-role"
+  name               = "service-catalog-role-final"
   assume_role_policy = jsonencode({
     Version = "2012-10-17"
     Statement = [
