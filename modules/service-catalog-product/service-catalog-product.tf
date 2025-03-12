@@ -1,5 +1,5 @@
 resource "aws_servicecatalog_product" "example" {
-  name          = "webapplication"
+  name          = "helloworlapplication"
   owner         = "akshaya"
   description   = "A simple web application product"
   distributor   = "example-distributor"
