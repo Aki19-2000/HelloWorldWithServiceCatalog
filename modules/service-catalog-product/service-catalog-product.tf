@@ -11,7 +11,7 @@ resource "aws_servicecatalog_product" "example" {
     name                         = "v1"
     description                  = "Version 1"
     type                         = "EXTERNAL"  # Ensure this is set to EXTERNAL
-    template_url                 = "https://akired18.s3.us-east-1.amazonaws.com/webapp1.tar.gz"
+    template_url                 = "https://akired18.s3.us-east-1.amazonaws.com/service-catalog_ec2.tar.gz"
     disable_template_validation  = true
   }
 }
