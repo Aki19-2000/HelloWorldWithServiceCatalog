@@ -1,5 +1,5 @@
 resource "aws_servicecatalog_portfolio" "s3_bucket_portfolio" {
-  name          = "web"
+  name          = "HelloWorld"
   description   = "Portfolio to manage S3 bucket products"
   provider_name = "akshaya"
 }
